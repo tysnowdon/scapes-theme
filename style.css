@@ -12,7 +12,7 @@ Template: storefront
 
 /* Hide default Wordpress navigation */
 header#masthead {
-    display: none;
+    /* display: none; */
 }
 
 

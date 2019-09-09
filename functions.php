@@ -4,13 +4,16 @@
 // /**
 //  * Custom navigation setup
 //  */
-// function scapes_custom_menu() {
-//     register_nav_menu('my-custom-menu',__( 'My Custom Menu' ));
-// }
-// add_action( 'init', 'scapes_custom_menu' );
+function scapes_custom_menu() {
+    // register_nav_menu('my-custom-menu',__( 'My Custom Menu' ));
+    register_nav_menu('primary',__( 'My Custom Menu' ));
+}
+add_action( 'init', 'scapes_custom_menu' );
+
+require_once('php/class-wp-bootstrap-navwalker.php');
 
 
-// //Replacement nav
+// // Replacement nav
 // wp_nav_menu( array( 
 //     'theme_location' => 'my-custom-menu', 
 //     'container_class' => 'custom-menu-class',
@@ -33,7 +36,7 @@ wp_enqueue_script('prefix_bootstrap', get_stylesheet_directory_uri().'/js/bootst
 
 
 
-include('navigation.php');
+include('php/navigation.php');
 
 
 
