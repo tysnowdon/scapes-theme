@@ -1,0 +1,50 @@
+/* Hide default Wordpress navigation */
+header#masthead {
+    display: none;
+}
+
+
+
+nav#custom-nav {
+    padding-top: 0;
+    padding-bottom: 0;
+    
+    background-color: #323150;
+}
+
+nav#custom-nav li {
+    border-color: 3e3d5e;
+    border-style: solid;
+    border-width: 1px;
+}
+nav#custom-nav li:hover {
+    margin: -1px;
+    background-color: #282840;
+
+    border-color: #282840;
+    border-top-color: #c41328;
+    border-top-width: 2px;
+}
+
+nav#custom-nav li a {
+    font-family: 'Play', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+input#search-bar {
+    padding-left: 50px;
+    background-color: #3e3d5e;
+}
+input#search-bar::placeholder {
+    font-size: 1.2rem;
+    color: #b2b1bf;
+}
+
+img#search-symbol {
+    position: absolute;
+    max-width: 30px;
+    margin-left: 10px;
+}

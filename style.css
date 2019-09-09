@@ -6,14 +6,3 @@ Author: Ty Snowdon
 Author URI: http://tysnowdon.com
 Template: storefront
 */  
-
-
-
-
-/* Hide default Wordpress navigation */
-header#masthead {
-    /* display: none; */
-}
-
-
-/* Style custom menu */
