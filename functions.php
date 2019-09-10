@@ -30,9 +30,11 @@ wp_enqueue_script('bootstrap_jquery', get_stylesheet_directory_uri().'/js/bootst
 
 
 
+//Don't show in admin panel
+if (!is_admin()) {
+    include('php/navigation.php');
+}
 
-
-include('php/navigation.php');
 
 
 
