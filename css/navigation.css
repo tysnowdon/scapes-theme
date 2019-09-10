@@ -3,8 +3,48 @@ header#masthead {
     display: none;
 }
 
+/* Top nav */
+#top-nav {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+    background-color: #323150;
+}
+#top-nav, #top-nav a {
+    color: #bfbfc5;
+}
+
+#top-nav img#social-media {
+    max-width: 30px;
+}
+
+img#scapes-logo {
+    position: absolute;
+}
 
 
+/* Middle nav */
+#middle-nav {
+    padding-bottom: 20px;
+    
+    background-color: #282840;
+}
+#middle-nav h3 {
+    color: white;
+}
+#middle-nav p {
+    color: #13c49a;
+}
+
+#middle-nav img {
+    max-height: 80%;
+}
+
+
+
+
+
+/* Bottom/main nav */
 nav#custom-nav {
     padding-top: 0;
     padding-bottom: 0;
