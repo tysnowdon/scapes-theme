@@ -62,7 +62,7 @@
     ?>
     <form class="form-inline my-2 my-lg-0">
       <img src="<?php echo get_stylesheet_directory_uri().'/assets/search-symbol.png' ?>" alt="Search" id="search-symbol">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search Store..." aria-label="Search" id="search-bar">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search Store..." aria-label="Search" id="search-bar" name="s">
       <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
     </form>
   </div>
@@ -73,8 +73,8 @@
     <div class="col-12">
     <form class="form-inline my-2 my-lg-0">
       <img src="<?php echo get_stylesheet_directory_uri().'/assets/search-symbol.png' ?>" alt="Search" id="search-symbol">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search Store..." aria-label="Search" id="search-bar">
-      <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+      <input class="form-control mr-sm-2" type="search" placeholder="Search Store..." aria-label="Search" id="search-bar" name="s">
+      <!-- <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button> -->
     </form>
     </div>
   </div>
