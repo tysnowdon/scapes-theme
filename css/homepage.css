@@ -1,16 +1,13 @@
 /* Mobile tweaks */
-@media (max-width: 767px) {
+@media (max-width: 991px) {
     #home-top-half {
         display: none;
     }
     #mobile-home-top-half {
         display: flex;
     }
-    .storefront-handheld-footer-bar {
-        display: none;
-    }
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
     #home-top-half {
         display: flex;
     }

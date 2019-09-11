@@ -1,4 +1,4 @@
-<!-- <div class="container-fluid">
+<div class="container-fluid" id="desktop-nav">
   <div class="row" id="top-nav">
     <div class="col-2" id="logo-div">
       <img src="<?php echo get_stylesheet_directory_uri().'/assets/scapes-logo.png' ?>" alt="Logo" id="scapes-logo">
@@ -41,13 +41,27 @@
       </div>
     </div>
   </div>
-</div> -->
+</div>
 <!-- end container -->
 
 <nav class="navbar navbar-expand-lg navbar-light" id="custom-nav">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
+  
+
+  <div class="justify-content-center text-center mobile-extra-content" id="mobile-text-logo">
+    <a href="<?php echo get_home_url() ?>">
+      <p class="top">SUPERHERO</p>
+      <p class="bottom">CAPES</p>
+    </a>
+  </div>
+
+  <div class="justify-content-right mobile-extra-content">
+    <a href="<?php echo wc_get_cart_url() ?>">
+      <img src="<?php echo get_stylesheet_directory_uri().'/assets/check-out.png' ?>" alt="Logo" id="mobile-nav-basket">
+    </a>
+  </div>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <?php /* Primary navigation */
@@ -69,9 +83,10 @@
 </nav>
 
 <div class="container">
+
   <div class="row" id="mobile-search">
     <div class="col-12">
-    <form class="form-inline my-2 my-lg-0">
+    <form class="form my-2 my-lg-0">
       <img src="<?php echo get_stylesheet_directory_uri().'/assets/search-symbol.png' ?>" alt="Search" id="search-symbol">
       <input class="form-control mr-sm-2" type="search" placeholder="Search Store..." aria-label="Search" id="search-bar" name="s">
       <!-- <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button> -->

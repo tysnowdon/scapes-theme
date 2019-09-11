@@ -5,12 +5,12 @@ header#masthead {
 
 /* Mobile tweaks */
 @media (min-width: 992px) {
-    #mobile-search {
+    #mobile-search, .mobile-extra-content {
         display: none;
     }
 }
 @media (max-width: 991px) {
-    #custom-nav form {
+    #custom-nav form, #desktop-nav, .storefront-handheld-footer-bar {
         display: none;
     }
 }
@@ -119,4 +119,26 @@ img#search-symbol {
 }
 .navbar-toggler:focus {
     outline-color: transparent;
+}
+
+#mobile-text-logo {
+    padding: 10px;
+}
+#mobile-text-logo p {
+    margin-bottom: 0;
+    font-size: 1.6rem;
+    line-height: 90%;
+}
+#mobile-text-logo p.top {
+    color: #13c49a;
+}
+#mobile-text-logo p.bottom {
+    color: white;
+}
+#mobile-text-logo a {
+    text-decoration: none;
+}
+
+img#mobile-nav-basket {
+    max-width: 50px;
 }
