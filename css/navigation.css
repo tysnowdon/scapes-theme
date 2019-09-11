@@ -3,6 +3,19 @@ header#masthead {
     display: none;
 }
 
+/* Mobile tweaks */
+@media (min-width: 992px) {
+    #mobile-search {
+        display: none;
+    }
+}
+@media (max-width: 991px) {
+    #custom-nav form {
+        display: none;
+    }
+}
+
+
 /* Top nav */
 #top-nav {
     padding-top: 5px;
@@ -77,6 +90,7 @@ nav#custom-nav li a {
 input#search-bar {
     padding-left: 50px;
     background-color: #3e3d5e;
+    color: #b2b1bf;
 }
 input#search-bar::placeholder {
     font-size: 1.2rem;
@@ -87,4 +101,22 @@ img#search-symbol {
     position: absolute;
     max-width: 30px;
     margin-left: 10px;
+}
+
+/* Mobile search */
+img#search-symbol {
+    top: 12px;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url(../assets/mobile-nav-toggler.png);
+}
+.navbar-light .navbar-toggler {
+    border: none;
+}
+.navbar-toggler:hover {
+    background-color: transparent;
+}
+.navbar-toggler:focus {
+    outline-color: transparent;
 }

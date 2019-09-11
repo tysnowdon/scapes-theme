@@ -19,6 +19,7 @@ require_once('php/class-wp-bootstrap-navwalker.php');
 //CSS
 wp_enqueue_style('bootstrap_css', get_stylesheet_directory_uri().'/css/bootstrap.min.css', array(), date("h:i:s"));
 wp_enqueue_style('navigation_css', get_stylesheet_directory_uri().'/css/navigation.css', array(), date("h:i:s"));
+wp_enqueue_style('homepage_css', get_stylesheet_directory_uri().'/css/homepage.css', array(), date("h:i:s"));
 wp_enqueue_style('play_font_css', 'https://fonts.googleapis.com/css?family=Play&display=swap', array(), date("h:i:s")); //Play font (matches Eras)
 
 //JS

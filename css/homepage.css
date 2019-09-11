@@ -1,0 +1,69 @@
+/* Mobile tweaks */
+@media (max-width: 767px) {
+    #home-top-half {
+        display: none;
+    }
+    #mobile-home-top-half {
+        display: flex;
+    }
+    .storefront-handheld-footer-bar {
+        display: none;
+    }
+}
+@media (min-width: 768px) {
+    #home-top-half {
+        display: flex;
+    }
+    #mobile-home-top-half {
+        display: none;
+    }
+}
+
+
+
+#homepage-content {
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+    font-family: 'Play', sans-serif;
+}
+
+#homepage-content p {
+    font-size: 1.2rem;
+}
+
+.home-thumb-img {
+    width: 70%;
+
+    box-shadow: 3px 3px 4px #c5c5c5, -3px -3px 4px #c5c5c5, -3px 3px 4px #c5c5c5, 3px -3px 4px #c5c5c5;
+}
+
+p.home-img-text {
+    z-index: 20;
+    position: absolute;
+    padding: 8px;
+
+    width: 140px;
+    top: -15px;
+    white-space: pre-line;
+    font-size: 1.2rem;
+
+    background-color: #54548b;
+    color: white;
+    font-weight: bold;
+
+    border-style: solid;
+    border-color: #cbcbdf;
+    border-width: 2px;
+}
+
+.img-container:hover p.home-img-text {
+    background-color: #00dbb5;
+}
+
+p#home-capes-text {
+    right: 30px;
+}
+p#home-accessories-text {
+    left: 30px;
+}
